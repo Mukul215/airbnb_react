@@ -1,13 +1,12 @@
 import "./App.css";
-import { Header, Hero } from "./components/index";
+import { Card, Header, Hero } from "./components/index";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
-      <br />
-      MAIN CONTENT HERE
+      <Card />
     </div>
   );
 }
