@@ -1,10 +1,12 @@
 import "./App.css";
-import { Header } from "./components/index";
+import { Header, Hero } from "./components/index";
 
 function App() {
   return (
     <div>
       <Header />
+      <Hero />
+      <br />
       MAIN CONTENT HERE
     </div>
   );

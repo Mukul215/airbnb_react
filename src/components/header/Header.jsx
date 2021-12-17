@@ -3,7 +3,7 @@ import HeaderImage from './HeaderImage'
 
 const Header = () => {
   return (
-    <div>
+    <div className="fixed">
       <HeaderImage />
     </div>
   )
