@@ -6,14 +6,7 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Card
-        img="Katie.png"
-        rating="5.0"
-        reviewCount={100}
-        country="United States"
-        title="Life lessons with Katie Zaferes"
-        price={136}
-      />
+      <Card />
     </div>
   );
 }
