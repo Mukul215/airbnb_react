@@ -1,5 +1,5 @@
-import "./App.css";
-import { Card, Header, Hero } from "./components/index";
+import './App.css'
+import { Card, Header, Hero } from './components/index'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Hero />
       <Card />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

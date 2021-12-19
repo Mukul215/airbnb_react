@@ -16,8 +16,7 @@ const Card = () => {
   })
 
   return (
-    <div className="container max-w-screen-lg mx-auto pb-10">
-      {/* {heroImage}       */}
+    <div className="overflow-x-scroll max-w-screen-lg mx-96 -px-20 pb-10 flex">
       {heroDetail}
     </div>
   )
