@@ -5,18 +5,14 @@ const Card = () => {
   const heroDetail = cardData.map(item => {
     return (
         <CardDetail 
-          img={item.coverImg}
-          rating={item.stats.rating}
-          reviewCount={item.stats.reviewCount}
-          country={item.location}
-          title={item.title}
-          price={item.price}
+          key={item.id}
+          {...item}
         />  
     )
   })
 
   return (
-    <div className="overflow-x-scroll max-w-screen-lg mx-96 -px-20 pb-10 flex">
+    <div className="overflow-x-scroll mx-96 -px-20 pb-10 flex">
       {heroDetail}
     </div>
   )
